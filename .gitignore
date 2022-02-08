@@ -1,3 +1,6 @@
 index.html
 boxmodel.html
 FristWebsite
+#use extansion to select many file of same extansion
+*.txt
+buy.html
