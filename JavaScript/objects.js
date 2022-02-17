@@ -36,7 +36,7 @@ let captainAmerica = {
         country: "USA"
     },
     sayHi : function(){
-        console.log(`hello ${this.name} thanku for showing intrest`);
+        console.log(`hello ${this.fristName} thanku for showing intrest`); // this --> object you use of (this) whene you are in same object 
     }
 };
 
@@ -58,3 +58,17 @@ for(let key in captainAmerica){
 
     console.log(captainAmerica [key]); //bracket notation uses
 }
+
+
+//this
+
+// let car = {
+//     name: "Ferrari",
+//     model: 2022,
+//     startEngine: function () {
+//         console.log(`Starting the engine of the car ${this.name}`)
+//     }
+// }
+
+// delete captainAmerica.lastName;
+// console.log(captainAmerica);
