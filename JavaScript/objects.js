@@ -1,4 +1,4 @@
-//javascript object are always in key value pair
+// //javascript object are always in key value pair
 
 
 let obj = {};  //empty object
@@ -72,3 +72,5 @@ for(let key in captainAmerica){
 
 // delete captainAmerica.lastName;
 // console.log(captainAmerica);
+
+
