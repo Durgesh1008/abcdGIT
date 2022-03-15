@@ -69,5 +69,5 @@ function copyFileToDest(srcPath, fullPathOfFile, folderName) {
 }
 
 
-let srcPath="C:\FJP-5 PEPCODING\Node\FileOrganize\Download"
+let srcPath="";
 organize(srcPath);
