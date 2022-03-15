@@ -41,3 +41,5 @@ for(let i =0; i<filesArr.length; i++){
 }
 
 console.log(content);
+
+
