@@ -16,7 +16,7 @@ console.log("before");
 // }
 
 // promises working
-let promiseThatFileWillBeRead = fs.promises.readFile("f1.txt");
+let promiseThatFileWillBeRead = fs.promises.readFile("f2.txt");
 
 console.log(promiseThatFileWillBeRead);
 
