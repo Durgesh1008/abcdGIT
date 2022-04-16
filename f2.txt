@@ -1,0 +1,14 @@
+The pdfkit module automatically wraps lines so that they fit between the margins, or in the width provided
+ (when writing text in columns). In other words, change it to false when calling the text() function:
+the lineBreak option is true by default. You can 
+
+pdfDoc.text("very long text ".repeat(20), { lineBreak : false });
+New pages are also added automatically as needed, i.e. as soon as 
+the content you want to add doesn't fit on the current page in its 
+entirety. However, you can also switch to the next page before filling
+ out the previous one by simply calling:
+
+pdfDoc.addPage();
+As for alignment, pdfkit provides us with the usual options -
+ left (default), right, center and justify. Note that setting a 
+ specific alignment with lineBreak set to false will not work, even if the text can fit in a line.
